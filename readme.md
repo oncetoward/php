@@ -8,24 +8,26 @@
         - <!DOCTYPE html>
         - HTML
             - head
-                - meta
-                - title
-                - style
-                - script
+                - <meta
+                - <title
+                - <style
+                - <script
             - body
-                - h1 ~ h6 : 제목
-                - div : 블럭
-                - p : 문단
-                - span : 구간
-                - ui ~ li
-                - ol ~ li
+                - <h1 ~ h6 : 제목
+                - <div : 블럭
+                - <p : 문단
+                
+                - <ul ~ li : unordered list
+                - <ol ~ li : ordered list
+                - <span : 구간 인라인
+                - <label 인라인
                 - 폼관련 태그
-                    - form
-                    - input
-                    - checkbox
-                    - select
-                    - radio
+                    - <form
+                    - <input
+                    - <checkbox
+                    - <select
+                    - <radio
             - 기타태그
-                - address
-                - article
-                - section
+                - <address
+                - <article
+                - <section
