@@ -16,6 +16,14 @@
             /* class 셀렉터 */
             .txtGreen{ color:green;}
             
+            /* 자손 셀렉터 : 하위 all */
+            .child span{color:orange;}
+            /* 자식 셀렉터 : 하위 1개 > 필요 */
+            .child>span{border:1px solid grey;}
+
+            form{
+                border:2px dotted red;
+            }
         </style>
         <!-- javascript 영역 -->
         <script>
@@ -48,6 +56,35 @@
                 <li>도쿄</li>
                 <li>뉴욕</li>
             </ol>
+            <div class="child">
+            날씨가<span>매우</span>덥다
+            더운날 먹는 음식
+            <ul>
+                <li><span>매운</span>냉면</li>
+                <li><span>시원한</span>국수</li>
+            </ul>
+            </div>
         </div>
+        <form action="go.php" method="POST">
+            <h2>가입하기</h2>
+            <ul>
+                <li><input name="uname" type="text" id="uname"></li>
+                <li><label for="">광고 메시지 받기</label>
+                    <input type="checkbox" name="sendm" id="sendm" value="1" checked>
+                </li>
+                <li><label for="">강의 수료 여부</label>
+                    <input type="checkbox" name="study" id="study" value="1">
+                </li>
+                <li>
+                    <label for="">남성</label>
+                    <input type="radio" name="gender" value="M" checked>
+                    <label for="">여성</label>
+                    <input type="radio" name="gender" value="F">
+                </li>
+                <li><input type="text" name="hello" placeholder="인사말을 적어주세요"></li>
+            </ul>
+            <br>
+            <input type="submit" value="전송하기">
+        </form>
     </body>
 </html>

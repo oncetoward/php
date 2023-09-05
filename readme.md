@@ -1,3 +1,8 @@
+# slack
+    * https://shorturl.at/stHJW
+
+    * 
+
 # php
     * HTML
      - hyper text mark language
@@ -23,10 +28,10 @@
                 - <label 인라인
                 - 폼관련 태그
                     - <form
-                    - <input
-                    - <checkbox
-                    - <select
-                    - <radio
+                    - <input 인라인
+                    - <checkbox 인라인
+                    - <select 인라인
+                    - <radio 인라인
             - 기타태그
                 - <address
                 - <article
